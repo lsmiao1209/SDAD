@@ -37,8 +37,8 @@ class DCFC(nn.Module):
             nn.Linear(num_features, 2)
         ).to(cuda)
         #
-        self.clusterCenter_or = nn.Parameter(torch.zeros(num_classes, num_features)) #torch.zero(10,64),一个张量，标量值为0，一行两列，里面都是0
-        self.clusterCenter_gs = nn.Parameter(torch.zeros(num_classes, num_features)) #torch.zero(10,64),一个张量，标量值为0，一行两列，里面都是0
+        self.clusterCenter_or = nn.Parameter(torch.zeros(num_classes, num_features))
+        self.clusterCenter_gs = nn.Parameter(torch.zeros(num_classes, num_features)) 
 
 
         self.alpha = 1.0
@@ -60,7 +60,7 @@ class DCFC(nn.Module):
         """
         obtain the distance to cluster centroids for each real instance
         Args:
-            x: sample on the embedded space #经过encoder降维后的数据，student[64,64],列降维
+            x: sample on the embedded space
 
         Returns: square of the euclidean distance, and the euclidean distance
         """
@@ -75,7 +75,7 @@ class DCFC(nn.Module):
         """
         obtain the distance to cluster centroids for each auxiliary instance
         Args:
-            x: sample on the embedded space #经过encoder降维后的数据，student[64,64],列降维
+            x: sample on the embedded space #
 
         Returns: square of the euclidean distance, and the euclidean distance
 
@@ -141,8 +141,6 @@ class DiffusionM(nn.Module):
         ).to(args.device)
 
     def forward(self, x, t):
-        # tips 计算参数时打开
-        # t = torch.flatten(t.long())
         t = torch.flatten(t)
         for idx, embedding_layer in enumerate(self.step_embeddings):
             t_embedding = embedding_layer(t)
