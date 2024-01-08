@@ -18,7 +18,6 @@ To demonstrate the effectiveness of our proposed method, we conducted experiment
 ## Baseline methods
 To validate the performance of our proposed AnoSD, we conducted a comparative evaluation with nine state-of-the-art methods on ten datasets. The Baseline methods include generative model-based approaches such as VAE[2013], AnoGAN[2017], ALAD[2017], GANomaly[2018], MOGAAL[2019], DDPM[2020], and DTPM[2023]. Additionally, two recent approaches were considered: one based on self-supervised learning, ICL[2022], and another is on deep ensemble framework, DIF[2023].
 
-![image](https://github.com/lsmiao1209/AnoSD/assets/142665752/c2a5b20c-82df-43de-957b-4d1c3eb173fb)
 
 ## Evaluation measures
 For the evaluation metrics, we utilized two mainstream methods widely employed in anomaly detection\cite{dtpm,slad,dif,metrics}: the Area Under the Receiver Operating Characteristic Curve (AUC-ROC) and the Area Under the Precision Recall Curve (AUC-PR).
