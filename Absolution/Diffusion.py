@@ -75,13 +75,6 @@ def train(args, train_x, train_y):
 
     results = '{:.4f}, {:.4f}'.format(maxauc, maxpr)
     print(results)
-    output_file = "T.xlsx"
-    if os.path.exists(output_file):
-        df = pd.read_excel(output_file)
-    else:
-        print("fdasfffff")
-    df = pd.concat([df, pd.DataFrame([results])], ignore_index=True)
-    df.to_excel(output_file, index=False)
 
 
 def Test(model, maxauc, maxpr, maxf1,args):
