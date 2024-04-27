@@ -7,6 +7,7 @@ If you find this work useful or use some our released datasets, we would appreci
 @article{LI2024120612,
 title = {Self-supervised enhanced denoising diffusion for anomaly detection},
 journal = {Information Sciences},
+author = {Shu Li and Jiong Yu and Yi Lu and Guangqi Yang and Xusheng Du and Su Liu},
 volume = {669},
 pages = {120612},
 year = {2024},
