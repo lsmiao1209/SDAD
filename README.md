@@ -1,5 +1,21 @@
 #SDAD
 
+## Citing SDAD:
+Our ADBench benchmark paper is now available on [Information Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0020025524005255).
+If you find this work useful or use some our released datasets, we would appreciate citations to the following paper:
+```
+@article{LI2024120612,
+title = {Self-supervised enhanced denoising diffusion for anomaly detection},
+journal = {Information Sciences},
+volume = {669},
+pages = {120612},
+year = {2024},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2024.120612},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025524005255}
+}
+```
+
 ## Software Requirement
 ```
 numpy== 1.25.0
