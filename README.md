@@ -1,7 +1,7 @@
 #SDAD
 
 ## Citing SDAD:
-Our ADBench benchmark paper is now available on [Information Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0020025524005255).
+Our SDAD paper is now available on [Information Sciences](https://www.sciencedirect.com/science/article/abs/pii/S0020025524005255).
 If you find this work useful or use some our code, we would appreciate citations to the following paper:
 ```
 @article{LI2024120612,
