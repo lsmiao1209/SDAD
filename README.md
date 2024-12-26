@@ -1,3 +1,3 @@
 # SDAD
 
-We have integrated SDAD into  [DOD_codes]([(https://github.com/lsmiao1209/DOD_codes)] 
+We have integrated SDAD into  [DOD_codes](https://github.com/lsmiao1209/DOD_codes) 
